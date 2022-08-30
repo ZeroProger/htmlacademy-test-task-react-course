@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="container">
+            <section class="about-us">
+                <h1>Мастер-классы от Create Studio</h1>
+                <button type="submit" class="btn" data-modal-open>Записаться</button>
+            </section>
+        </main>
+    </div>
+    <div class="modal" data-modal>
+        <div class="modal__wrapper">
+            <div class="modal__content">
+                <button type="button" class="modal__close" data-modal-close title="Закрыть"></button>
+                <form action="#" id="usersForm" class="modal__form">
+                    <div class="modal__header">
+                        <h2 class="modal__header-text">Заявка на участие</h2>
+                    </div>
+                    <div class="modal__body">
+                        <div class="form-field">
+                            <label for="name">
+                                <input type="text" id="name" placeholder="ФИО"/>
+                            </label>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">
+                                <input type="email" id="email" placeholder="E-mail"/>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal__footer">
+                        <button type="submit" class="btn btn--small btn--submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/modal.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Roboto", "Verdana", sans-serif;
+  color: #000000;
+  background-color: #E3E5E1;
+}
+
+.wrapper {
+  background: url(../img/bgimage.png) no-repeat 0 0;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+
+  background: url(../img/office.png) no-repeat 700px 120px;
+
+}
+
+.about-us {
+  width: 500px;
+  min-height: 400px;
+  padding-left: 90px;
+  padding-top: 150px;
+
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 80px;
+  font-size: 65px;
+  line-height: 65px;
+  color: #6C8474;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  width: 330px;
+  height: 80px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #F3F3F3;
+  background-color: #6C8474;
+  border: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.28);
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #6C8474;
+  border: none;
+}
+
+.btn:active {
+  background-color: #D9D9D9;
+}
+
+.btn--small {
+  width: 230px;
+  height: 60px;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.form-field input {
+  outline: none;
+  background: #F9F9F9;
+  border: 3px solid #C4C4C4;
+  border-radius: 15px;
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 15px;
+  width: 100%;
+  max-width: 550px;
+  box-sizing: border-box;
+}
+
+.form-field input:focus,
+.form-field input:active {
+  border: 3px solid #207a3e;
+}
