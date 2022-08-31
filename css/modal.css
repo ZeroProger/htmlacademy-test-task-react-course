@@ -136,7 +136,7 @@
     box-sizing: border-box;
 }
 
-.modal__footer .info-message {
+.info-message {
     font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 400;
@@ -150,10 +150,10 @@
     border-radius: 15px;
 }
 
-.modal__footer .info-message.info-message--success {
+.info-message.info-message--success {
     background-color: #349f57;
 }
 
-.modal__footer .info-message.info-message--error {
+.info-message.info-message--error {
     background-color: #e85353;
 }
